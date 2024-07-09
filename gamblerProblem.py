@@ -58,4 +58,4 @@ def plot_result(ph):
 
 # Solve and plot for ph = 0.25, and ph = 0.55
 plot_result(0.25)
-plot_result(0.55)
+plot_result(0.50)
