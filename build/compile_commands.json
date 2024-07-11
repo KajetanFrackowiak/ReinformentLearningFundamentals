@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/kajetan/Documents/Notes/ReinformentLearningFundamentals/build",
+  "command": "/usr/bin/c++  -I/usr/include/gnuplot-iostream -g -o CMakeFiles/your_executable_name.dir/windyGridworld.cpp.o -c /home/kajetan/Documents/Notes/ReinformentLearningFundamentals/windyGridworld.cpp",
+  "file": "/home/kajetan/Documents/Notes/ReinformentLearningFundamentals/windyGridworld.cpp"
+}
+]

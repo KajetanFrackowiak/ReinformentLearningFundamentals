@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/your_executable_name.dir/windyGridworld.cpp.o -o your_executable_name 
