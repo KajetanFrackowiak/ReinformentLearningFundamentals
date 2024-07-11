@@ -1,3 +1,0 @@
-/home/kajetan/Documents/Notes/ReinformentLearningFundamentals/build/CMakeFiles/your_executable_name.dir
-/home/kajetan/Documents/Notes/ReinformentLearningFundamentals/build/CMakeFiles/edit_cache.dir
-/home/kajetan/Documents/Notes/ReinformentLearningFundamentals/build/CMakeFiles/rebuild_cache.dir
