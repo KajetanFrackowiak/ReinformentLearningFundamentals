@@ -1,12 +1,12 @@
-#include <iostream>
-#include <vector>
 #include <cmath>
 #include <cstdlib>
 #include <ctime>
+#include <iostream>
+#include <vector>
 
 const double ALPHA = 0.1;
 const double GAMMA = 0.99;
-const int N = 3; // n-step TD
+const int N = 3;  // n-step TD
 const int NUM_STATES = 5;
 const int NUM_ACTIONS = 2;
 
@@ -22,11 +22,11 @@ int getNextState(int state, int action) {
     return state;
 }
 
-int selectAction(int state) {
-    return rand() % NUM_ACTIONS;
-}
+int selectAction(int state) { return rand() % NUM_ACTIONS; }
 
-void nStepTD(std::vector<double>& V, const std::vector<int>& states, const std::vector<int>& actions, const std::vector<double>& reward) {
+void nStepTD(std::vector<double>& V, const std::vector<int>& states,
+             const std::vector<int>& actions,
+             const std::vector<double>& reward) {
     int T = states.size();
     for (int t = 0; t < T - N; ++t) {
         double G = 0.0;

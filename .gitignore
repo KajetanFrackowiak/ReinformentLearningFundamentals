@@ -1,0 +1,13 @@
+# Ignore build directories
+/build
+
+# Ignore Visual Studio Code
+/.vscode
+
+# Ignore matplotlib
+matplotlibcpp.h
+
+# Ignore compiled files
+*.o
+*.a
+*.so
