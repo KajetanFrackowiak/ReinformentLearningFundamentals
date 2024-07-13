@@ -11,3 +11,8 @@ matplotlibcpp.h
 *.o
 *.a
 *.so
+
+# Executable files
+*.exe
+*.out
+*.app
